@@ -1,75 +1,42 @@
-# Next.js & Capacitor Projesi
+# <p align="center">📱 NEXT.JS & CAPACITOR MOBILE HUB</p>
+## <p align="center">🚀 Modern Web ve Hibrit Mobil Uygulama Platformu</p>
 
-Bu proje, mobil ve web platformlarında çalışacak şekilde tasarlanmış, modern teknolojilerle geliştirilmiş bir uygulamadır. Next.js gücünü Capacitor'ın mobil yetenekleriyle birleştirir.
-
-## 🚀 Öne Çıkan Özellikler
-
-*   **Modern Web Yapısı:** Next.js 15 (App Router) ile hızlı ve optimize edilmiş deneyim.
-*   **Mobil Uyumluluk:** Capacitor entegrasyonu sayesinde tek kod tabanıyla Android/iOS desteği.
-*   **Arayüz Bileşenleri:** Radix UI ve Tailwind CSS ile erişilebilir ve şık tasarım.
-*   **Animasyonlar:** Framer Motion ile akışkan kullanıcı etkileşimleri.
-*   **Backend Entegrasyonu:** Supabase ile gerçek zamanlı veri yönetimi ve kimlik doğrulama.
-
-## 🛠 Kullanılan Teknolojiler
-
-*   **Framework:** [Next.js](https://nextjs.org/)
-*   **Platform:** [Capacitor](https://capacitorjs.com/)
-*   **Veritabanı/Auth:** [Supabase](https://supabase.com/)
-*   **Stil:** [Tailwind CSS](https://tailwindcss.com/)
-*   **UI/UX:** [Radix UI](https://www.radix-ui.com/), [Lucide React](https://lucide.dev/), [Framer Motion](https://www.framer.com/motion/)
-*   **Dil:** [TypeScript](https://www.typescriptlang.org/)
-
-## 📦 Kurulum
-
-Öncelikle bağımlılıkları yükleyin:
-
-```bash
-npm install
-# veya
-bun install
-```
-
-### Yerel Geliştirme (Web)
-
-Geliştirme sunucusunu başlatın:
-
-```bash
-npm run dev
-```
-
-Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresine gidin.
-
-### Mobil Geliştirme (Android)
-
-Android APK veya bundle oluşturmak için:
-
-1.  Next.js projesini derleyin:
-    ```bash
-    npm run build
-    ```
-2.  Capacitor ile eşitleyin:
-    ```bash
-    npx cap sync
-    ```
-3.  Android Studio'yu açın:
-    ```bash
-    npx cap open android
-    ```
-
-## 🎥 Test ve Demo
-
-Uygulamayı hızlıca denemek ve çalışma mantığını görmek için aşağıdaki dosyaları kullanabilirsiniz:
-
-*   **Test Videosu:** `test_video.zip` dosyası içerisinde uygulamanın çalışma performansını ve özelliklerini gösteren bir demo videosu bulunmaktadır.
-*   **Android APK:** `apk/app-debug.apk` dosyasını doğrudan Android cihazınıza veya emülatörünüze kurarak uygulamayı test edebilirsiniz.
-
-## 📂 Proje Yapısı
-
-*   `src/`: Uygulama kaynak kodları.
-*   `public/`: Statik dosyalar (logolar, görseller).
-*   `android/`: Android platformuna özel dosyalar.
-*   `capacitor.config.ts`: Capacitor yapılandırma dosyası.
-*   `next.config.ts`: Next.js yapılandırma dosyası.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js%2015-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+</p>
 
 ---
-*Bu README dosyası otomatik olarak proje gereksinimlerine göre güncellenmiştir.*
+
+### 📝 PROJE HAKKINDA
+Bu çalışma, **Next.js**'in güçlü web mimarisini **Capacitor**'ın mobil yetenekleriyle birleştiren hibrit bir uygulama projesidir. Tek bir kod tabanı üzerinden hem yüksek performanslı web deneyimi hem de Android/iOS platformları için yerel (native) uygulama çıktıları sunar.
+
+Proje, modern UI bileşenleri ve gerçek zamanlı veri yönetimi altyapısı kullanılarak, ölçeklenebilir bir hibrit uygulama örneği oluşturmak amacıyla geliştirilmiştir.
+
+### 🌟 Öne Çıkan Özellikler
+* ⚡ **Hibrit Yapı:** Capacitor entegrasyonu sayesinde web projesini doğrudan mobil cihazlara taşıma imkanı.
+* 🛡️ **Güçlü Backend:** Supabase ile gerçek zamanlı veri senkronizasyonu ve güvenli kimlik doğrulama.
+* 🎨 **Akıcı Arayüz:** Tailwind CSS ve Radix UI ile erişilebilir, Framer Motion ile animasyonlu kullanıcı deneyimi.
+* 🛠️ **Gelişmiş Mimari:** Next.js 15 App Router mimarisi üzerinde yükselen, tip güvenli (TypeScript) geliştirme süreci.
+
+---
+
+### 🛠️ TEKNOLOJİ YIĞINI
+
+| Bileşen | Teknoloji | Kullanım Amacı |
+| :--- | :--- | :--- |
+| **Framework** | Next.js 15 | Uygulama Mimarisi ve SSR/Static Üretim |
+| **Platform** | Capacitor | Mobil Adaptasyon (Android/iOS) |
+| **Veritabanı** | Supabase | Real-time Data & Auth |
+| **Stil / UI** | Tailwind & Radix | Tasarım Sistemi ve Erişilebilirlik |
+| **Animasyon** | Framer Motion | Etkileşimli Kullanıcı Arayüzü |
+
+---
+
+### 📦 KURULUM VE TEST
+
+1. **Bağımlılıkları Yükleyin:**
+   ```bash
+   npm install
