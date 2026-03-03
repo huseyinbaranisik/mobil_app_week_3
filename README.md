@@ -39,4 +39,4 @@ Proje, modern UI bileşenleri ve gerçek zamanlı veri yönetimi altyapısı kul
 
 1. **Dosya boyutu fazla olduğundan Google Drive üzerinden ziplenmiş dosyayı indirmeniz gerkmektedir**
    ```bash
-   (https://drive.google.com/file/d/1csVLOgGZCpRRmM3RfEBJB7WnvQHG9iRE/view?usp=sharing)
+   https://drive.google.com/file/d/1csVLOgGZCpRRmM3RfEBJB7WnvQHG9iRE/view?usp=sharing
