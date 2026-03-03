@@ -35,8 +35,8 @@ Proje, modern UI bileşenleri ve gerçek zamanlı veri yönetimi altyapısı kul
 
 ---
 
-### 📦 KURULUM VE TEST
+### 📦 DOSYALAMA
 
-1. **Bağımlılıkları Yükleyin:**
+1. **Dosya boyutu fazla olduğundan Google Drive üzerinden ziplenmiş dosyayı indirmeniz gerkmektedir**
    ```bash
-   npm install
+   (https://drive.google.com/file/d/1csVLOgGZCpRRmM3RfEBJB7WnvQHG9iRE/view?usp=sharing)
